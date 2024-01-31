@@ -1,0 +1,27 @@
+.card_wrapper {
+  padding: 14px 20px;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  border-radius: 12px;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 230px;
+}
+.card_wrapper:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.title {
+  /* margin-top: 16px; */
+  font-size: 20px;
+  font-weight: 700;
+  color: #121212;
+}
+.desc {
+  /* margin-top: 12px; */
+  color: rgba(60, 60, 67, 0.6);
+  font-size: 14px;
+  line-height: 18px;
+}

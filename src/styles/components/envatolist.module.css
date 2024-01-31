@@ -1,0 +1,23 @@
+.list_wrapper {
+  /* padding-inline: 100px; */
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+.list_wrapper li {
+  color: #484848;
+  padding: 0 15px;
+  white-space: nowrap;
+  font-size: 14px;
+  /* padding: 18px; */
+  font-weight: 600;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+
+.list_wrapper li:hover {
+  border-bottom: 2px solid #523ee8;
+}
